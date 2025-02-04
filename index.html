@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris Museums Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>🖼️ Paris Museums Guide</h1>
+        <p>Discover all museums in Paris by district</p>
+    </header>
+
+    <main>
+        <section class="filters">
+            <input type="text" id="search" placeholder="Search museum...">
+            <select id="district-filter">
+                <option value="">All districts</option>
+                <option value="1st">1st arrondissement</option>
+                <option value="4th">4th arrondissement</option>
+                <!-- Ajouter tous les arrondissements -->
+            </select>
+        </section>
+
+        <div class="museum-grid" id="museum-container">
+            <!-- Les musées seront chargés ici -->
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Paris Museums Guide - Data from parismusees.paris.fr</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
