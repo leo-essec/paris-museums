@@ -15,7 +15,7 @@ A comprehensive directory of Paris museums organized by arrondissement, featurin
 
 ## 🚀 Demo
 
-Live preview: [https://leo-essec.github.io/paris-museums/](https://leo-essec.github.io/paris-museums/)
+Live preview: [[https://leo-essec.github.io/paris-museums/](https://github.com/leo-essec/paris-museums)]
 
 ![Screenshot](images/screenshot.jpg)
 
