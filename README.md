@@ -23,4 +23,4 @@ Live preview: [[https://leo-essec.github.io/paris-museums/](https://github.com/l
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/paris-museums.git
+git clone https://github.com/leo-essec/paris-museums.git
