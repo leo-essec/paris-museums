@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* About Us Page Styles */
+        .about-us {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 2rem;
+        }
+
+        .about-us h1 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .about-us p {
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .team-section {
+            margin-top: 2rem;
+        }
+
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 1rem;
+        }
+
+        .team-member-info {
+            color: #2c3e50;
+        }
+
+        .team-member-info h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .team-member-info p {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 600px) {
+            .team-member {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .team-member img {
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <div class="about-us">
+        <h1>Our Mission</h1>
+        <p>We are a group of ESSEC students dedicated to democratizing and easing access to cultural locations for other students. Our goal is to make it easier for everyone to explore and enjoy the rich cultural heritage of Paris.</p>
+        
+        <div class="team-section">
+            <h2>Meet the Team</h2>
+            
+            <div class="team-member">
+                <img src="images/clemence.jpg" alt="Clémence">
+                <div class="team-member-info">
+                    <h3>Clémence</h3>
+                    <p>Clémence is passionate about art and history. She is responsible for curating the best museums and cultural spots in Paris.</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <img src="images/leo.jpg" alt="Léo">
+                <div class="team-member-info">
+                    <h3>Léo</h3>
+                    <p>Léo is our tech guru, ensuring the website runs smoothly and efficiently. He loves coding and exploring new technologies.</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <img src="images/bruno.jpg" alt="Bruno">
+                <div class="team-member-info">
+                    <h3>Bruno</h3>
+                    <p>Bruno is in charge of marketing and outreach. He works tirelessly to spread the word about our mission and engage with the community.</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <img src="images/thibault.jpg" alt="Thibault">
+                <div class="team-member-info">
+                    <h3>Thibault</h3>
+                    <p>Thibault handles partnerships and collaborations. He connects with museums and cultural institutions to bring exclusive content to our users.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 ESSEC Students. All rights reserved.</p>
+    </footer>
+</body>
+</html>
