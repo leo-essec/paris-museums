@@ -1,22 +1,76 @@
 <script>
-  // Ajoutez ici la logique spécifique à la page d'accueil si nécessaire.
+  import { onMount } from 'svelte';
+  import { museums } from '$lib/data/museums';
+  import Header from '$lib/components/Header.svelte';
+  import Footer from '$lib/components/Footer.svelte';
+  import MuseumCard from '$lib/components/MuseumCard.svelte';
+  
+  let filteredMuseums = [...museums];
+  let searchTerm = '';
+  let selectedDistrict = '';
+  
+  // Generate district options
+  function getOrdinalSuffix(n) {
+      const j = n % 10, k = n % 100;
+      if (j === 1 && k !== 11) return 'st';
+      if (j === 2 && k !== 12) return 'nd';
+      if (j === 3 && k !== 13) return 'rd';
+      return 'th';
+  }
+  
+  let districtOptions = [];
+  onMount(() => {
+      for (let i = 1; i <= 20; i++) {
+          const suffix = getOrdinalSuffix(i);
+          districtOptions.push({
+              value: `${i}${suffix}`,
+              label: `${i}${suffix} arrondissement`
+          });
+      }
+  });
+  
+  // Filter museums based on search and district
+  $: {
+      filteredMuseums = museums.filter(museum => {
+          const nameMatch = museum.name.toLowerCase().includes(searchTerm.toLowerCase());
+          const districtMatch = selectedDistrict ? museum.district === selectedDistrict : true;
+          return nameMatch && districtMatch;
+      });
+  }
 </script>
 
 <svelte:head>
-  <title>Accueil - Paris Museums Guide</title>
-  <meta name="description" content="Bienvenue sur Paris Museums Guide, votre guide des musées parisiens." />
+  <title>Paris Museums Guide</title>
 </svelte:head>
 
-<div class="home-page">
-  <h1>Bienvenue sur Paris Museums Guide</h1>
-  <p>Découvrez la richesse culturelle de Paris à travers ses nombreux musées.</p>
-</div>
+<Header />
 
-<style>
-  .home-page {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-  }
-</style>
+<main>
+  <section class="filters">
+      <input 
+          type="text" 
+          id="search" 
+          placeholder="Search museum..." 
+          bind:value={searchTerm}
+      >
+      
+      <select id="district-filter" bind:value={selectedDistrict}>
+          <option value="">All districts</option>
+          {#each districtOptions as option}
+              <option value={option.value}>{option.label}</option>
+          {/each}
+      </select>
+  </section>
+  
+  <div class="museum-grid">
+      {#each filteredMuseums as museum (museum.id)}
+          <MuseumCard {museum} />
+      {/each}
+  </div>
+</main>
+
+<Footer>
+  <div>
+      <p>Contact us: <a href="/contact">Contact Page</a> | <a href="/about">About Us</a></p>
+  </div>
+</Footer>
