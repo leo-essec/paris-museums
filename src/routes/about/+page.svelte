@@ -33,7 +33,7 @@
         </div>
         
         <div class="team-member">
-            <img src="/images/bruno.jpg" alt="Bruno">
+            <img src="/images/bruno.jpeg" alt="Bruno">
             <div class="team-member-info">
                 <h3>Bruno</h3>
                 <p>Bruno is in charge of marketing and outreach. He works tirelessly to spread the word about our mission and engage with the community.</p>
