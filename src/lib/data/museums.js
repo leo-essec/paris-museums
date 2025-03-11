@@ -224,7 +224,7 @@ export const museums = [
         id: 13,
         name: "National Museum of Natural History",
         district: "5th",
-        image: "https://cdn.sortiraparis.com/images/80/102680/918057-le-mammouth-de-durfort-restaure-au-museum-national-d-histoire-naturelle-a7c7412.jpg",
+        image: "https://media.lesechos.com/api/v1/images/view/6353ea4d7d5bff3d8273cca8/1280x720/0702603657530-web-tete.jpg",
         description: "Dedicated to natural history",
         address: "57 Rue Cuvier, 75005 Paris",
         hours: "Monday to Sunday, 10 AM to 6 PM.",
