@@ -25,7 +25,7 @@
         </div>
         
         <div class="team-member">
-            <img src="/images/leo.jpg" alt="Léo">
+            <img src="/images/leo.JPG" alt="Léo">
             <div class="team-member-info">
                 <h3>Léo</h3>
                 <p>Léo is our tech guru, ensuring the website runs smoothly and efficiently. He loves coding and exploring new technologies.</p>
