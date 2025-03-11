@@ -12,7 +12,7 @@
     <img src={museum.image} class="museum-image" alt={museum.name}>
     <div class="museum-info">
         <h3>{museum.name}</h3>
-        <div class="district">{museum.district} arrondissement</div>
+        <div class="district">District {museum.district}</div>
         <p>{museum.description}</p>
         <button class="view-more-btn" on:click={viewDetails}>View Details</button>
     </div>

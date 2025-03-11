@@ -11,7 +11,7 @@
 
 <div class="about-us">
     <h1>Our Mission</h1>
-    <p>We are a group of ESSEC students dedicated to democratizing and easing access to cultural locations for other students. Our goal is to make it easier for everyone to explore and enjoy the rich cultural heritage of Paris.</p>
+    <p>We are a group of ESSEC students dedicated to democratizing and easing access to cultural locations for others. Our goal is to make it easier for everyone to explore and enjoy the rich cultural heritage of Paris.</p>
     
     <div class="team-section">
         <h2>Meet the Team</h2>
@@ -50,4 +50,4 @@
     </div>
 </div>
 
-<Footer copyright="© 2025 ESSEC Students. All rights reserved." showSocials={false} />
+<Footer copyright="(c) 2025 ESSEC Students. All rights reserved." showSocials={false} />

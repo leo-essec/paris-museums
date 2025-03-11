@@ -6,36 +6,36 @@ export const museums = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/640px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg",
         description: "World's largest art museum and historic monument",
         address: "Rue de Rivoli, 75001 Paris",
-        hours: "Mercredi à lundi, de 9h à 18h. Fermé le mardi.",
-        price: "17€",
+        hours: "Wednesday to Monday, from 9 AM to 6 PM. Closed on Tuesday.",
+        price: "€17",
         collections: [
-            "Antiquités égyptiennes",
-            "Antiquités grecques",
-            "Peintures",
-            "Arts de l'Islam",
+            "Egyptian Antiquities",
+            "Greek Antiquities",
+            "Paintings",
+            "Islamic Art",
             "Sculptures",
-            "Objets d'art"
+            "Art Objects"
         ],
-        fullDescription: "Le musée du Louvre est le plus grand musée d'art et d'antiquités au monde. Situé au cœur de Paris, cet ancien palais royal abrite certaines des œuvres d'art les plus célèbres, dont la Joconde de Léonard de Vinci. Actuellement, le musée présente l'exposition 'Revoir Cimabue' du 22 janvier au 12 mai 2025, mettant en lumière l'un des artistes les plus importants du 13e siècle.",
+        fullDescription: "The Louvre Museum is the world's largest art and antiquities museum. Located in the heart of Paris, this former royal palace houses some of the most famous artworks, including Leonardo da Vinci's Mona Lisa. Currently, the museum is hosting the 'Revoir Cimabue' exhibition from January 22 to May 12, 2025, highlighting one of the most important artists of the 13th century.",
         website: "https://www.louvre.fr"
     },
     {
         id: 2,
-        name: "Musée d'Orsay",
+        name: "Orsay Museum",
         district: "7th",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg/640px-Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg",
         description: "Housed in a former railway station, famous for Impressionist art",
         address: "1 Rue de la Légion d'Honneur, 75007 Paris",
-        hours: "Mardi à dimanche, de 9h30 à 18h. Fermé le lundi.",
-        price: "16€",
+        hours: "Tuesday to Sunday, from 9:30 AM to 6 PM. Closed on Monday.",
+        price: "€16",
         collections: [
-            "Art impressionniste",
-            "Art post-impressionniste",
-            "Art nouveau",
-            "Photographie",
+            "Impressionist Art",
+            "Post-Impressionist Art",
+            "Art Nouveau",
+            "Photography",
             "Sculptures"
         ],
-        fullDescription: "Installé dans l'ancienne gare d'Orsay, ce musée est mondialement connu pour sa collection exceptionnelle d'art impressionniste et post-impressionniste. Le bâtiment lui-même est une œuvre d'art, avec sa magnifique architecture Beaux-Arts et son imposante horloge.",
+        fullDescription: "Housed in a former railway station, this museum is world-renowned for its exceptional collection of Impressionist and Post-Impressionist art. The building itself is a work of art, featuring magnificent Beaux-Arts architecture and its imposing clock.",
         website: "https://www.musee-orsay.fr"
     },
     {
@@ -45,162 +45,162 @@ export const museums = [
         image: "https://www.centrepompidou.fr/fileadmin/_processed_/2/4/csm_collection-notrebatiment-photofacaderuerambuteau2021_1920x750_af5ca8a213.jpg",
         description: "Modern art museum with innovative architecture",
         address: "Place Georges-Pompidou, 75004 Paris",
-        hours: "Tous les jours sauf le mardi, de 11h à 21h",
-        price: "14€",
+        hours: "Every day except Tuesday, from 11 AM to 9 PM",
+        price: "€14",
         collections: [
-            "Art moderne",
-            "Art contemporain",
+            "Modern Art",
+            "Contemporary Art",
             "Design",
             "Architecture",
-            "Nouveaux médias"
+            "New Media"
         ],
-        fullDescription: "Le Centre Pompidou est un centre d'art et de culture unique en son genre, reconnaissable à son architecture révolutionnaire. Il abrite le Musée National d'Art Moderne, qui possède la plus importante collection d'art moderne et contemporain d'Europe.",
+        fullDescription: "The Centre Pompidou is a unique art and culture center, renowned for its revolutionary architecture. It houses the National Museum of Modern Art, which holds the largest collection of modern and contemporary art in Europe.",
         website: "https://www.centrepompidou.fr"
     },
     {
         id: 4,
-        name: "Musée Rodin",
+        name: "Rodin Museum",
         district: "7th",
         image: "https://www.musee-rodin.fr/sites/default/files/styles/885x495/public/2020-11/2020_06_23_jardin_jm006.jpg?itok=JHOZrVmz",
         description: "Sculptures by Auguste Rodin in a historic mansion",
         address: "77 Rue de Varenne, 75007 Paris",
-        hours: "Mardi à dimanche, de 10h à 18h30. Fermé le lundi.",
-        price: "13€",
+        hours: "Tuesday to Sunday, from 10 AM to 6:30 PM. Closed on Monday.",
+        price: "€13",
         collections: [
             "Sculptures",
-            "Dessins",
-            "Photographies",
+            "Drawings",
+            "Photographs",
             "Archives",
-            "Objets d'art"
+            "Art Objects"
         ],
-        fullDescription: "Situé dans l'élégant Hôtel Biron, le musée Rodin présente les œuvres majeures du sculpteur Auguste Rodin dans un cadre exceptionnel. Le musée comprend un magnifique jardin de sculptures où l'on peut admirer 'Le Penseur' et 'Les Bourgeois de Calais'.",
+        fullDescription: "Located in the elegant Hôtel Biron, the Rodin Museum showcases the major works of sculptor Auguste Rodin in an exceptional setting. The museum features a beautiful sculpture garden where you can admire 'The Thinker' and 'The Burghers of Calais'.",
         website: "https://www.musee-rodin.fr"
     },
     {
         id: 5,
-        name: "Musée Picasso",
+        name: "Picasso Museum",
         district: "3rd",
         image: "https://paris.kidiklik.fr/sites/default/files/styles/crop_image/public/2022-11/Kidiklik-3.jpg?itok=nvLNoViM",
         description: "Extensive collection of Picasso's works",
         address: "5 Rue de Thorigny, 75003 Paris",
-        hours: "Mardi à vendredi de 10h30 à 18h, Weekend de 9h30 à 18h",
-        price: "14€",
+        hours: "Tuesday to Friday from 10:30 AM to 6 PM, Weekend from 9:30 AM to 6 PM",
+        price: "€14",
         collections: [
-            "Peintures",
+            "Paintings",
             "Sculptures",
-            "Dessins",
-            "Céramiques",
-            "Archives personnelles"
+            "Drawings",
+            "Ceramics",
+            "Personal Archives"
         ],
-        fullDescription: "Le Musée Picasso Paris, situé dans le magnifique Hôtel Salé, présente une collection unique des œuvres de Pablo Picasso. Le musée retrace l'évolution artistique du maître à travers plus de 5000 œuvres et des dizaines de milliers de pièces d'archives.",
+        fullDescription: "The Picasso Museum Paris, located in the magnificent Hôtel Salé, presents a unique collection of Pablo Picasso's works. The museum traces the artist's evolution through over 5,000 works and tens of thousands of archival pieces.",
         website: "https://www.museepicassoparis.fr"
     },
     {
         id: 6,
-        name: "Musée de l'Orangerie",
-        district: "1er",
+        name: "Orangerie Museum",
+        district: "1st",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mus%C3%A9e_de_l%27Orangerie_2011.jpg/640px-Mus%C3%A9e_de_l%27Orangerie_2011.jpg",
-        description: "Célèbre pour les Nymphéas de Monet",
+        description: "Famous for Monet's Water Lilies",
         address: "Jardin des Tuileries, 75001 Paris",
-        hours: "Mercredi à lundi, de 9h à 18h. Fermé le mardi.",
-        price: "12,50€",
+        hours: "Wednesday to Monday, from 9 AM to 6 PM. Closed on Tuesday.",
+        price: "€12.50",
         collections: [
-            "Peintures impressionnistes",
-            "Peintures post-impressionnistes"
+            "Impressionist Paintings",
+            "Post-Impressionist Paintings"
         ],
-        fullDescription: "Le Musée de l'Orangerie est surtout connu pour abriter les célèbres Nymphéas de Claude Monet, présentés dans deux salles ovales spécialement conçues pour ces œuvres monumentales. Le musée propose également la collection Walter-Guillaume, qui comprend des œuvres de Renoir, Cézanne, Matisse et Picasso.",
+        fullDescription: "The Orangerie Museum is best known for housing Claude Monet's famous Water Lilies, displayed in two oval rooms specially designed for these monumental works. The museum also features the Walter-Guillaume collection, which includes works by Renoir, Cézanne, Matisse, and Picasso.",
         website: "https://www.musee-orangerie.fr"
     },
     {
         id: 7,
-        name: "Musée de l'Armée",
-        district: "7e",
+        name: "Army Museum",
+        district: "7th",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Les_Invalides_north.jpg/640px-Les_Invalides_north.jpg",
-        description: "Musée militaire situé aux Invalides",
+        description: "Military museum located at Les Invalides",
         address: "129 Rue de Grenelle, 75007 Paris",
-        hours: "Tous les jours, de 10h à 18h. Fermé le premier lundi de chaque mois.",
-        price: "14€",
+        hours: "Every day, from 10 AM to 6 PM. Closed on the first Monday of each month.",
+        price: "€14",
         collections: [
-            "Armes et armures",
-            "Uniformes",
-            "Objets militaires",
-            "Peintures",
+            "Weapons and Armor",
+            "Uniforms",
+            "Military Objects",
+            "Paintings",
             "Sculptures"
         ],
-        fullDescription: "Le Musée de l'Armée, situé dans l'Hôtel des Invalides, offre une vaste collection d'objets militaires, retraçant l'histoire de l'armée française du Moyen Âge à nos jours. Le site abrite également le tombeau de Napoléon Bonaparte.",
+        fullDescription: "The Army Museum, located in the Hôtel des Invalides, offers an extensive collection of military artifacts, tracing the history of the French army from the Middle Ages to the present day. The site also houses the tomb of Napoleon Bonaparte.",
         website: "https://www.musee-armee.fr"
     },
     {
         id: 8,
-        name: "Musée du Quai Branly - Jacques Chirac",
-        district: "7e",
+        name: "Quai Branly - Jacques Chirac Museum",
+        district: "7th",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mus%C3%A9e_du_quai_Branly.jpg/640px-Mus%C3%A9e_du_quai_Branly.jpg",
-        description: "Arts et civilisations d'Afrique, d'Asie, d'Océanie et des Amériques",
+        description: "Arts and Civilizations of Africa, Asia, Oceania, and the Americas",
         address: "37 Quai Branly, 75007 Paris",
-        hours: "Mardi à dimanche, de 10h30 à 19h. Nocturne le jeudi jusqu'à 22h. Fermé le lundi.",
-        price: "12€",
+        hours: "Tuesday to Sunday, from 10:30 AM to 7 PM. Late opening on Thursday until 10 PM. Closed on Monday.",
+        price: "€12",
         collections: [
-            "Objets ethnographiques",
-            "Arts premiers",
-            "Photographies",
+            "Ethnographic Objects",
+            "Primitive Arts",
+            "Photography",
             "Textiles",
-            "Instruments de musique"
+            "Musical Instruments"
         ],
-        fullDescription: "Le Musée du Quai Branly - Jacques Chirac présente une riche collection d'objets d'art et d'artisanat provenant des civilisations non occidentales. Son architecture unique et son jardin luxuriant en font un lieu incontournable pour les amateurs de cultures du monde.",
+        fullDescription: "The Quai Branly - Jacques Chirac Museum showcases a rich collection of art and craft objects from non-Western civilizations. Its unique architecture and lush garden make it a must-visit place for world culture enthusiasts.",
         website: "https://www.quaibranly.fr"
     },
     {
         id: 9,
-        name: "Musée Marmottan Monet",
-        district: "16e",
+        name: "Marmottan Monet Museum",
+        district: "16th",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mus%C3%A9e_Marmottan_Monet.jpg/640px-Mus%C3%A9e_Marmottan_Monet.jpg",
-        description: "Collection impressionniste, notamment des œuvres de Monet",
+        description: "Impressionist collection, notably works by Monet",
         address: "2 Rue Louis Boilly, 75016 Paris",
-        hours: "Mardi à dimanche, de 10h à 18h. Fermé le lundi.",
-        price: "12€",
+        hours: "Tuesday to Sunday, from 10 AM to 6 PM. Closed on Monday.",
+        price: "€12",
         collections: [
-            "Peintures impressionnistes",
-            "Peintures post-impressionnistes",
-            "Manuscrits enluminés",
-            "Arts décoratifs"
+            "Impressionist Paintings",
+            "Post-Impressionist Paintings",
+            "Illuminated Manuscripts",
+            "Decorative Arts"
         ],
-        fullDescription: "Le Musée Marmottan Monet possède la plus grande collection mondiale d'œuvres de Claude Monet, y compris le célèbre tableau 'Impression, soleil levant'. Le musée abrite également des œuvres d'autres artistes impressionnistes et post-impressionnistes.",
+        fullDescription: "The Marmottan Monet Museum houses the world's largest collection of Claude Monet's works, including the famous painting 'Impression, Sunrise'. The museum also holds works by other Impressionist and Post-Impressionist artists.",
         website: "https://www.marmottan.fr"
     },
     {
         id: 10,
-        name: "Musée Jacquemart-André",
-        district: "8e",
+        name: "Jacquemart-André Museum",
+        district: "8th",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Mus%C3%A9e_Jacquemart-Andr%C3%A9.jpg/640px-Mus%C3%A9e_Jacquemart-Andr%C3%A9.jpg",
-        description: "Hôtel particulier avec une collection d'art privée",
+        description: "Historic mansion with a private art collection",
         address: "158 Boulevard Haussmann, 75008 Paris",
-        hours: "Tous les jours, de 10h à 18h. Nocturne le lundi jusqu'à 20h30.",
-        price: "15€",
+        hours: "Every day, from 10 AM to 6 PM. Late opening on Monday until 8:30 PM.",
+        price: "€15",
         collections: [
-            "Peintures",
+            "Paintings",
             "Sculptures",
-            "Meubles",
-            "Objets d'art",
-            "Tapisseries"
+            "Furniture",
+            "Art Objects",
+            "Tapestries"
         ],
-        fullDescription: "Le Musée Jacquemart-André est un somptueux hôtel particulier du XIXe siècle qui abrite une impressionnante collection d'art, rassemblée par le couple de collectionneurs Édouard André et Nélie Jacquemart. Le musée offre un aperçu de la vie aristocratique parisienne de l'époque.",
+        fullDescription: "The Jacquemart-André Museum is a sumptuous 19th-century mansion housing an impressive art collection, gathered by the collector couple Édouard André and Nélie Jacquemart. The museum offers a glimpse into the aristocratic life of Paris in that era.",
         website: "https://www.musee-jacquemart-andre.com"
     },
     {
         id: 11,
-        name: "Musée Carnavalet",
+        name: "Carnavalet Museum",
         district: "3rd",
         image: "https://upload.wikimedia.org/wikipedia/commons/3/33/Mus%C3%A9e_Carnavalet_-_entr%C3%A9e.jpg",
         description: "Dedicated to the history of Paris",
         address: "16 Rue des Francs Bourgeois, 75003 Paris",
-        hours: "Tuesday to Sunday, 10 AM to 6 PM. Closed on Mondays.",
+        hours: "Tuesday to Sunday, 10 AM to 6 PM. Closed on Monday.",
         price: "Free",
         collections: [
             "Historical Artifacts",
             "Paintings",
             "Sculptures"
         ],
-        fullDescription: "The Musée Carnavalet offers a deep dive into the fascinating history of Paris, from its ancient roots to the modern era, with beautifully restored interiors.",
+        fullDescription: "The Carnavalet Museum offers a deep dive into the fascinating history of Paris, from its ancient roots to the modern era, with beautifully restored interiors.",
         website: "https://www.carnavalet.paris.fr"
     },
     {
@@ -210,7 +210,7 @@ export const museums = [
         image: "https://upload.wikimedia.org/wikipedia/commons/8/87/Petit_Palais_-_Paris.jpg",
         description: "Museum of Fine Arts",
         address: "Avenue Winston Churchill, 75008 Paris",
-        hours: "Tuesday to Sunday, 10 AM to 6 PM. Closed on Mondays.",
+        hours: "Tuesday to Sunday, 10 AM to 6 PM. Closed on Monday.",
         price: "Free",
         collections: [
             "Fine Arts",
@@ -222,7 +222,7 @@ export const museums = [
     },
     {
         id: 13,
-        name: "Muséum National d'Histoire Naturelle",
+        name: "National Museum of Natural History",
         district: "5th",
         image: "https://upload.wikimedia.org/wikipedia/commons/3/37/Mus%C3%A9um_national_d%27histoire_naturelle.jpg",
         description: "Dedicated to natural history",
@@ -235,17 +235,17 @@ export const museums = [
             "Zoology",
             "Mineralogy"
         ],
-        fullDescription: "The Muséum National d'Histoire Naturelle offers a fascinating exploration of the natural world, with highlights including its Grand Gallery of Evolution and a historic botanical garden.",
+        fullDescription: "The National Museum of Natural History offers a fascinating exploration of the natural world, with highlights including its Grand Gallery of Evolution and a historic botanical garden.",
         website: "https://www.mnhn.fr"
     },
     {
         id: 14,
-        name: "Cité des Sciences et de l'Industrie",
+        name: "Science and Industry Museum",
         district: "19th",
         image: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Cit%C3%A9_des_Sciences_et_de_l%27Industrie_%28Paris%29_%28October_2011%29.jpg",
         description: "Science and technology museum",
         address: "30 Avenue Corentin Cariou, 75019 Paris",
-        hours: "Tuesday to Sunday, 10 AM to 6 PM. Closed on Mondays.",
+        hours: "Tuesday to Sunday, 10 AM to 6 PM. Closed on Monday.",
         price: "€12",
         collections: [
             "Interactive Exhibits",
@@ -253,7 +253,7 @@ export const museums = [
             "Physics",
             "Engineering"
         ],
-        fullDescription: "The Cité des Sciences et de l'Industrie is an interactive science museum offering exhibits on various topics, from astronomy to cutting-edge technology.",
+        fullDescription: "The Science and Industry Museum is an interactive museum offering exhibits on various topics, from astronomy to cutting-edge technology.",
         website: "https://www.cite-sciences.fr"
     }
 ];

@@ -4,11 +4,11 @@
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import MuseumCard from '$lib/components/MuseumCard.svelte';
-  
+
   let filteredMuseums = [...museums];
   let searchTerm = '';
   let selectedDistrict = '';
-  
+
   // Generate district options
   function getOrdinalSuffix(n) {
       const j = n % 10, k = n % 100;
@@ -17,18 +17,18 @@
       if (j === 3 && k !== 13) return 'rd';
       return 'th';
   }
-  
+
   let districtOptions = [];
   onMount(() => {
       for (let i = 1; i <= 20; i++) {
           const suffix = getOrdinalSuffix(i);
           districtOptions.push({
               value: `${i}${suffix}`,
-              label: `${i}${suffix} arrondissement`
+              label: `${i}${suffix} district`
           });
       }
   });
-  
+
   // Filter museums based on search and district
   $: {
       filteredMuseums = museums.filter(museum => {
@@ -47,10 +47,10 @@
 
 <main>
   <section class="filters">
-      <input 
-          type="text" 
-          id="search" 
-          placeholder="Search museum..." 
+      <input  
+          type="text"  
+          id="search"  
+          placeholder="Search museum..."  
           bind:value={searchTerm}
       >
       
