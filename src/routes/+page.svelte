@@ -1,5 +1,4 @@
 <script>
-  import { onMount } from 'svelte';
   import { museums } from '$lib/data/museums';
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
@@ -9,7 +8,7 @@
   let searchTerm = '';
   let selectedDistrict = '';
 
-  // Generate district options
+  // Generate district options (moved out of onMount for SSR compatibility)
   function getOrdinalSuffix(n) {
       const j = n % 10, k = n % 100;
       if (j === 1 && k !== 11) return 'st';
@@ -19,15 +18,13 @@
   }
 
   let districtOptions = [];
-  onMount(() => {
-      for (let i = 1; i <= 20; i++) {
-          const suffix = getOrdinalSuffix(i);
-          districtOptions.push({
-              value: `${i}${suffix}`,
-              label: `${i}${suffix} district`
-          });
-      }
-  });
+  for (let i = 1; i <= 20; i++) {
+      const suffix = getOrdinalSuffix(i);
+      districtOptions.push({
+          value: `${i}${suffix}`,
+          label: `${i}${suffix} district`
+      });
+  }
 
   // Filter museums based on search and district
   $: {
