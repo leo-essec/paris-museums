@@ -1,20 +1,12 @@
 <script>
     import Header from '$lib/components/Header.svelte';
     import Footer from '$lib/components/Footer.svelte';
-    
+
+    // Variables liées aux champs pour le confort d'écriture
     let name = '';
     let email = '';
     let subject = '';
     let message = '';
-    
-    function handleSubmit() {
-        // Here you would typically send the form data to a server
-        alert('Thanks for your message! We will get back to you soon.');
-        name = '';
-        email = '';
-        subject = '';
-        message = '';
-    }
 </script>
 
 <svelte:head>
@@ -25,31 +17,23 @@
 
 <main>
     <section class="contact-section">
-        <div class="contact-info">
-            <h2>Contact Us</h2>
-            <p>For any questions or information requests, please feel free to contact us:</p>
-            <ul>
-                <li>Email: <a href="mailto:contact@museesparis.com">contact@museesparis.com</a></li>
-                <li>Phone: <a href="tel:+33123456789">01 23 45 67 89</a></li>
-            </ul>
-        </div>
-        
         <div class="contact-form">
             <h2>Contact Form</h2>
-            <form on:submit|preventDefault={handleSubmit}>
+            <!-- On retire l'appel JS côté client et on utilise method="POST" -->
+            <form method="POST">
                 <div class="form-group">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" bind:value={name} required>
+                    <input type="text" id="name" bind:value={name} required />
                 </div>
                 
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" bind:value={email} required>
+                    <input type="email" id="email" bind:value={email} required />
                 </div>
                 
                 <div class="form-group">
                     <label for="subject">Subject:</label>
-                    <input type="text" id="subject" bind:value={subject} required>
+                    <input type="text" id="subject" bind:value={subject} required />
                 </div>
                 
                 <div class="form-group">
@@ -63,4 +47,7 @@
     </section>
 </main>
 
-<Footer copyright="(c) 2025 Paris Museums Guide. All rights reserved." showSocials={false} />
+<Footer
+    copyright="(c) 2025 Paris Museums Guide. All rights reserved."
+    showSocials={false}
+/>
